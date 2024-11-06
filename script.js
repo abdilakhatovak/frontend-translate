@@ -62,6 +62,13 @@ function removeFavorite(index) {
     alert("Перевод удален из избранного.");
 }
 
+document.getElementById("translateButton").addEventListener("click", translateWord);
+document.getElementById("saveButton").addEventListener("click", saveTranslation);
+
+
+document.getElementById("saveButton").disabled = true;
+
+
 
 
 
